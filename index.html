@@ -1,0 +1,27 @@
+<html>
+  
+  <!--
+    Based off Team Treehouse jQuery Project
+  -->
+  
+<head>
+<meta charset="utf-8">
+<title>Drawing App</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<canvas	width="2400" height="700" id="mainCanvas"></canvas>
+<div class="controls">
+	<ul>
+		<li class="red selected"></li>
+		<li class="blue"></li>
+		<li class="yellow"></li>
+	</ul>
+	<button id="clear" onclick='clear_canvas_width ()'>Clear Canvas</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.4.0/dist/tf.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
