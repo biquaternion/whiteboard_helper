@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 
     async function load_model() {
-        let model = await tf.loadLayersModel('http://localhost:63343/other/hwjs.model/model.json');
+        let model = await tf.loadLayersModel('http://104.248.94.32:8080/hwjs.model/model.json');
         // let model = await tf.loadLayersModel('http://localhost:63343/other/hw.model.resnet.js/model.json');
         return model;
     }
