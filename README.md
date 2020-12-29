@@ -2,7 +2,11 @@
 javascript whiteboard for online lessons pretending to be smart
 
 ## usage
+### local version
 index.html
+### online version
+if model has not been fetched try the online version
+http://104.248.94.32:8080/
 
 ## thanks
 special thanks for the author of this editor
