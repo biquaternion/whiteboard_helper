@@ -10,9 +10,13 @@ http://104.248.94.32:8080/
 
 ### how to use
 Just draw whatever you need.
+
 The letters or digits you drawn should be automatically replaced by the same letter/digit from the Arial font with the similar height.
+
 Note: replacement works only for those letters/digits which has reasonable size (between 10 and 200 pixels)
+
 Note: the only one-stroke input for letters is supported at the moment
+
 Note: some recognition mistakes might take place
 
 ## thanks
